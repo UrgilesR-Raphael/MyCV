@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.cv-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.cv-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.cv-info h1 {
+    color: #003366;
+}
+
+.cv-dato {
+    margin: 3px 0;
+}
+
+.cv-section h2 {
+    color: #003366;
+    border-bottom: 2px solid #ccc;
+}
+
